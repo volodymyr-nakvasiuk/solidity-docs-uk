@@ -1,3 +1,7 @@
+`Бажаєте допомогти з перекладом? <https://github.com/volodymyr-nakvasiuk/solidity-docs-uk/blob/master/CONTRIBUTING.md>`_
+
+----
+
 .. index:: contract, state variable, function, event, struct, enum, function;modifier
 
 .. _contract_structure:

@@ -1,3 +1,9 @@
+`Бажаєте допомогти з перекладом? <https://github.com/volodymyr-nakvasiuk/solidity-docs-uk/blob/master/CONTRIBUTING.md>`_
+
+----
+
+`Про відповідність основній документації. <https://github.com/volodymyr-nakvasiuk/solidity-docs-uk/blob/master/README.md>`_
+
 Solidity
 ========
 
@@ -36,10 +42,13 @@ Translations
 
 This documentation is translated into several languages by community volunteers, but the English version stands as a reference.
 
+* `English <http://solidity.readthedocs.io>`_ (main documentation)
+* `Ukrainian <http://solidity-uk.readthedocs.io>`_ (in progress)
 * `Simplified Chinese <http://solidity-cn.readthedocs.io>`_ (in progress)
 * `Spanish <https://solidity-es.readthedocs.io>`_
 * `Russian <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (rather outdated)
 * `Korean <http://solidity-kr.readthedocs.io>`_ (in progress)
+
 
 
 Useful links

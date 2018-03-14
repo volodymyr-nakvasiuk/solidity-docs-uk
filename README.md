@@ -1,7 +1,7 @@
 # Solidity документація українською мовою
 Це переклад українською мовою [офіційної документації](https://github.com/ethereum/solidity/tree/develop/docs "Документація останньої версії Solidity") мови програмування Solidity.
 
-Для ознайомлення скористайтеся [поточною версією документації українською мовою](https://solidity-es.readthedocs.io/es/latest/index.html).
+Для ознайомлення скористайтеся [поточною версією документації українською мовою](https://solidity-uk.readthedocs.io/).
 
 ## Версія
 Цей репозиторій є копією документації Solidity, останній commit: [3232561d979954f0625102d33cf042fc5eda7211](https://github.com/ethereum/solidity/tree/3232561d979954f0625102d33cf042fc5eda7211/docs)
