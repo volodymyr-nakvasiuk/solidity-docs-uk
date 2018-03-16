@@ -1,15 +1,11 @@
-`Бажаєте допомогти з перекладом? <https://github.com/volodymyr-nakvasiuk/solidity-docs-uk/blob/master/CONTRIBUTING.md>`_
+#####################
+Детально про Solidity
+#####################
 
-----
-
-#################
-Solidity in Depth
-#################
-
-This section should provide you with all you need to know about Solidity.
-If something is missing here, please contact us on
-`Gitter <https://gitter.im/ethereum/solidity>`_ or make a pull request on
-`Github <https://github.com/ethereum/solidity/pulls>`_.
+В цьому розділі ви повинні знайти все, що необхідно знати про Solidity.
+Якщо, все ж таки, щось пропущено, будь ласка, зв'яжіться з нами через
+`Gitter <https://gitter.im/ethereum/solidity>`_, або зробіть pull request в
+`основний репозиторій на Github <https://github.com/ethereum/solidity/pulls>`_.
 
 .. toctree::
    :maxdepth: 2
