@@ -1,7 +1,3 @@
-`Бажаєте допомогти з перекладом? <https://github.com/volodymyr-nakvasiuk/solidity-docs-uk/blob/master/CONTRIBUTING.md>`_
-
-----
-
 `Про відповідність основній документації. <https://github.com/volodymyr-nakvasiuk/solidity-docs-uk/blob/master/README.md>`_
 
 Solidity
@@ -12,160 +8,160 @@ Solidity
     :alt: Solidity logo
     :align: center
 
-Solidity is a contract-oriented, high-level language for implementing smart contracts.
-It was influenced by C++, Python and JavaScript
-and is designed to target the Ethereum Virtual Machine (EVM).
+Solidity - це, так звана, контрактно-орієнтована, високорівнева мова програмування для написання смарт контрактів (smart contracts).
+Натхнена такими мовами програмування як C++, Python та JavaScript
+і розроблена спеціально під віртуальну машину Ethereum (Ethereum Virtual Machine, або EVM).
 
-Solidity is statically typed, supports inheritance, libraries and complex
-user-defined types among other features.
+Solidity статично типізована мова і серед інших функцій, підтримує успадкування (inheritance), бібліотеки та складні,
+визначені користувачем, типи даних.
 
-As you will see, it is possible to create contracts for voting,
-crowdfunding, blind auctions, multi-signature wallets and more.
+Як ви зможете переконатися, Solidity дозволяє створити контракти для голосування,
+краудфандінгу, чесного аукціону, гаманці з мульти-підписом та багато чого іншого.
 
 .. note::
-    The best way to try out Solidity right now is using
+    Напростіший спосіб спробувати Solidity прямо зараз, це скористатися
     `Remix <https://remix.ethereum.org/>`_
-    (it can take a while to load, please be patient). Remix is a web browser
-    based IDE that allows you to write Solidity smart contracts, then deploy 
-    and run the smart contracts. 
+    (може довго завантажуватися, будьте терплячі). Remix - це online
+    IDE, що дозволяє писати, деплоїти та запускати смарт контракти мовою Solidity.
 
 .. warning::
-    Since software is written by humans, it can have bugs. Thus, also
-    smart contracts should be created following well-known best-practices in
-    software development. This includes code review, testing, audits and correctness proofs.
-    Also note that users are sometimes more confident in code than its authors.
-    Finally, blockchains have their own things to watch out for, so please take
-    a look at the section :ref:`security_considerations`.
+    Програмне забезпечення пишеться людьми, тому не захищене від помилок. Тому,
+    смарт контракти ви повинні писати з використанням добре відомих найкращих практик
+    написання програмного забезпечення. Це code review, тестування, аудит та, так званий, доказ корректності (correctness proofs).
+    Також зауважте, що користувачі програмного забезпечення часто більш впевнені в програмному коді, ніж в його авторі.
+    І останнє, але не меньш важливе, blockchain має власні особливості за якими потрібно уважно стежити при написанні коду,
+    тож прохання звернути увагу на розділ :ref:`security_considerations`.
 
-Translations
-------------
+Документація іншими мовами
+--------------------------
 
-This documentation is translated into several languages by community volunteers, but the English version stands as a reference.
+Solidity документація перекладена кількома мовами волонтерами DAPP спільноти. Англійська версія найбільш актуальна, та виступає джерелом для перекладу.
 
-* `English <http://solidity.readthedocs.io>`_ (main documentation)
-* `Ukrainian <http://solidity-uk.readthedocs.io>`_ (in progress)
-* `Simplified Chinese <http://solidity-cn.readthedocs.io>`_ (in progress)
-* `Spanish <https://solidity-es.readthedocs.io>`_
-* `Russian <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (rather outdated)
-* `Korean <http://solidity-kr.readthedocs.io>`_ (in progress)
+* `Англійська <http://solidity.readthedocs.io>`_ (**основна документація**)
+* `Українська <https://solidity-uk.readthedocs.io>`_ (`Бажаєте допомогти з перекладом? <https://github.com/volodymyr-nakvasiuk/solidity-docs-uk/blob/master/CONTRIBUTING.md>`_)
+* `Китайська <http://solidity-cn.readthedocs.io>`_ (перекладається)
+* `Іспанська <https://solidity-es.readthedocs.io>`_
+* `Російська <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (неактуальна версія)
+* `Корейська <http://solidity-kr.readthedocs.io>`_ (перекладається)
 
 
 
-Useful links
-------------
+Корисні лінки
+-------------
 
 * `Ethereum <https://ethereum.org>`_
 
-* `Changelog <https://github.com/ethereum/solidity/blob/develop/Changelog.md>`_
+* `Список останніх змін Solidity <https://github.com/ethereum/solidity/blob/develop/Changelog.md>`_
 
-* `Story Backlog <https://www.pivotaltracker.com/n/projects/1189488>`_
+* `Backlog Solidity <https://www.pivotaltracker.com/n/projects/1189488>`_
 
-* `Source Code <https://github.com/ethereum/solidity/>`_
+* `Програмний код Solidity <https://github.com/ethereum/solidity/>`_
 
-* `Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_
+* `Ethereum Stackexchange (Q&A) <https://ethereum.stackexchange.com/>`_
 
-* `Gitter Chat <https://gitter.im/ethereum/solidity/>`_
+* `Gitter чат <https://gitter.im/ethereum/solidity/>`_
 
-Available Solidity Integrations
--------------------------------
+Існуючі способи розробки мовою Solidity
+---------------------------------------
 
 * `Remix <https://remix.ethereum.org/>`_
-    Browser-based IDE with integrated compiler and Solidity runtime environment without server-side components.
+    Online IDE з інтегрованим компілятором та Solidity runtime середовищем, що не потребує серверної частини (працює в браузері).
 
-* `IntelliJ IDEA plugin <https://plugins.jetbrains.com/plugin/9475-intellij-solidity>`_
-    Solidity plugin for IntelliJ IDEA (and all other JetBrains IDEs)
+* `Плагін для IntelliJ IDEA <https://plugins.jetbrains.com/plugin/9475-intellij-solidity>`_
+    Плагін Solidity для IntelliJ IDEA (і всіх похідних IDE від JetBrains)
 
-* `Visual Studio Extension <https://visualstudiogallery.msdn.microsoft.com/96221853-33c4-4531-bdd5-d2ea5acc4799/>`_
-    Solidity plugin for Microsoft Visual Studio that includes the Solidity compiler.
+* `Розширення для Visual Studio <https://visualstudiogallery.msdn.microsoft.com/96221853-33c4-4531-bdd5-d2ea5acc4799/>`_
+    Плагін Solidity для Microsoft Visual Studio, що включає компілятор Solidity.
 
-* `Package for SublimeText — Solidity language syntax <https://packagecontrol.io/packages/Ethereum/>`_
-    Solidity syntax highlighting for SublimeText editor.
+* `Пакет для SublimeText <https://packagecontrol.io/packages/Ethereum/>`_
+    Пакет Ethereum Solidity language syntax для редактора SublimeText, що дозволяє робити підсвітку синтаксису програмного коду на Solidity.
 
 * `Etheratom <https://github.com/0mkara/etheratom>`_
-    Plugin for the Atom editor that features syntax highlighting, compilation and a runtime environment (Backend node & VM compatible).
+    Плагін для редактора Atom, що дозволяє робити підсвітку синтаксису, компілятор та runtime серидовище.
 
 * `Atom Solidity Linter <https://atom.io/packages/linter-solidity>`_
-    Plugin for the Atom editor that provides Solidity linting.
+    Плагін для редактора Atom, що перевіряє ваш Solidity код на відповідність стилю та стандартам.
 
 * `Atom Solium Linter <https://atom.io/packages/linter-solium>`_
-    Configurable Solidty linter for Atom using Solium as a base.
+    Плагін для редактора Atom, що перевіряє ваш Solidity код на відповідність стилю та стандартам на базі Solium. Дозволяє зробити гнучку настройку своєї роботи.
 
 * `Solium <https://github.com/duaraghav8/Solium/>`_
-    Linter to identify and fix style and security issues in Solidity.
+    Linter для знаходження та виправлення помилок та зауважень пов'язаних з безпекою та стилем програмного коду в Solidity.
     
 * `Solhint <https://github.com/protofire/solhint>`_
-    Solidity linter that provides security, style guide and best practice rules for smart contract validation.
+    Linter для Solidity, що підсвічує помилки пов'язані з безпекою, стилем коду та допомагає у використанні найкращих практик написання смарт контрактів.
 
-* `Visual Studio Code extension <http://juan.blanco.ws/solidity-contracts-in-visual-studio-code/>`_
-    Solidity plugin for Microsoft Visual Studio Code that includes syntax highlighting and the Solidity compiler.
+* `Розшрення для Visual Studio Code <http://juan.blanco.ws/solidity-contracts-in-visual-studio-code/>`_
+    Плагін Solidity для Microsoft Visual Studio Code, що включає в себе підсвітку синтаксису та компілятор Solidity.
 
 * `Emacs Solidity <https://github.com/ethereum/emacs-solidity/>`_
-    Plugin for the Emacs editor providing syntax highlighting and compilation error reporting.
+    Плагін для редактора Emacs, що надає підсвітку синтаксису та перевірку помилок компіляції.
 
 * `Vim Solidity <https://github.com/tomlion/vim-solidity/>`_
-    Plugin for the Vim editor providing syntax highlighting.
+    Плагін для редактора Vim, що надає підсвітку синтаксису.
 
 * `Vim Syntastic <https://github.com/scrooloose/syntastic>`_
-    Plugin for the Vim editor providing compile checking.
+    Плагін для редактора Vim, що перевіряє код на помилки компіляції.
 
-Discontinued:
+Більше не підтримується:
 
 * `Mix IDE <https://github.com/ethereum/mix/>`_
-    Qt based IDE for designing, debugging and testing solidity smart contracts.
+    IDE на базі Qt для розробки, дебагінгу та тестування смарт контрактів на Solidity.
 
-* `Ethereum Studio <https://live.ether.camp/>`_		
-    Specialized web IDE that also provides shell access to a complete Ethereum environment.
+* `Ethereum Studio <https://live.ether.camp/>`_
+    Спеціалізований онлайн IDE, що надає shell доступ до повного середовища Ethereum.
 
-Solidity Tools
---------------
+Інструменти для Solidity
+------------------------
 
 * `Dapp <https://dapp.readthedocs.io>`_
-    Build tool, package manager, and deployment assistant for Solidity.
+    Build інструмент, пакетний менеджер та deployment помічник для Solidity.
 
 * `Solidity REPL <https://github.com/raineorshine/solidity-repl>`_
-    Try Solidity instantly with a command-line Solidity console.
+    Спробуйне Solidity прямо зараз з командного рядка.
 
 * `solgraph <https://github.com/raineorshine/solgraph>`_
-    Visualize Solidity control flow and highlight potential security vulnerabilities.
+    Візуалізує роботу коду Solidity та підсвічує потенційні вразливості пов'язані з безпекою.
 
 * `evmdis <https://github.com/Arachnid/evmdis>`_
-    EVM Disassembler that performs static analysis on the bytecode to provide a higher level of abstraction than raw EVM operations.
+    Дизасемблер віртуальної машини Ethereum (EVM), що виконує статичний аналіз, щоб забезпечити більш високий рівень абстракції, ніж сирі операції EVM.
 
 * `Doxity <https://github.com/DigixGlobal/doxity>`_
-    Documentation Generator for Solidity.
+    Генератор документації для Solidity.
 
-Third-Party Solidity Parsers and Grammars
------------------------------------------
+Інші парсери Solidity
+---------------------
 
 * `solidity-parser <https://github.com/ConsenSys/solidity-parser>`_
-    Solidity parser for JavaScript
+    Парсер Solidity для JavaScript
 
 * `Solidity Grammar for ANTLR 4 <https://github.com/federicobond/solidity-antlr4>`_
-    Solidity grammar for the ANTLR 4 parser generator
+    Граматика Solidity для парсера ANTLR 4-го покоління
 
-Language Documentation
-----------------------
+Документація
+------------
 
-On the next pages, we will first see a :ref:`simple smart contract <simple-smart-contract>` written
-in Solidity followed by the basics about :ref:`blockchains <blockchain-basics>`
-and the :ref:`Ethereum Virtual Machine <the-ethereum-virtual-machine>`.
+На наступній сторінці ви спочатку побачите :ref:`простий смарт контракт <simple-smart-contract>` написаний
+мовою Solidity, далі основи технології :ref:`blockchains <blockchain-basics>`
+та трохи про :ref:`віртуальну машину Ethereum (EVM) <the-ethereum-virtual-machine>`.
 
-The next section will explain several *features* of Solidity by giving
-useful :ref:`example contracts <voting>`
-Remember that you can always try out the contracts
-`in your browser <https://remix.ethereum.org>`_!
+Наступний розділ пояснить кілька *можливостей* мови Solidity на
+корисних :ref:`прикладах смарт контрактів <voting>`.
+Пам'ятайте, що ви завжди можете спробувати/перевірити смарт контракти
+запустивши їх `прямо у браузері <https://remix.ethereum.org>`_!
 
-The last and most extensive section will cover all aspects of Solidity in depth.
+Останній і найширший розділ глибоко охоплює всі аспекти Solidity.
 
-If you still have questions, you can try searching or asking on the
-`Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_
-site, or come to our `gitter channel <https://gitter.im/ethereum/solidity/>`_.
-Ideas for improving Solidity or this documentation are always welcome!
+Якщо після прочитання документації у вас все ще залишаться запитання,
+ви можете пошукати відповідь, або задати власне запитання на сайті
+`Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_,
+або ласкаво просимо в наш `gitter канал <https://gitter.im/ethereum/solidity/>`_.
+Ми завжди вітаємо будь-які ідеї що до покращення мови Solidity, або цієї документації!
 
-Contents
-========
+Зміст
+=====
 
-:ref:`Keyword Index <genindex>`, :ref:`Search Page <search>`
+:ref:`Ключові слова в алфавітному порядку <genindex>`, :ref:`Пошук <search>`
 
 .. toctree::
    :maxdepth: 2
